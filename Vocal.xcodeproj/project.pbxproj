@@ -1,0 +1,67 @@
+// !$*UTF8*$!
+{
+ archiveVersion = 1;
+ classes = {};
+ objectVersion = 70;
+ objects = {
+  A00000000000000000000001 = {
+   isa = PBXProject;
+   attributes = { BuildIndependentTargetsInParallel = 1; LastUpgradeCheck = 2600; };
+   buildConfigurationList = A00000000000000000000010;
+   compatibilityVersion = "Xcode 15.0";
+   developmentRegion = en;
+   knownRegions = (en, Base);
+   mainGroup = A00000000000000000000002;
+   packageReferences = (A00000000000000000000020);
+   productRefGroup = A00000000000000000000003;
+   projectDirPath = "";
+   projectRoot = "";
+   targets = (A00000000000000000000005);
+  };
+  A00000000000000000000002 = { isa = PBXGroup; children = (A00000000000000000000009, A00000000000000000000030, A00000000000000000000003); sourceTree = "<group>"; };
+  A00000000000000000000003 = { isa = PBXGroup; children = (A00000000000000000000004); name = Products; sourceTree = "<group>"; };
+  A00000000000000000000004 = { isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vocal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+  A00000000000000000000005 = {
+   isa = PBXNativeTarget;
+   buildConfigurationList = A00000000000000000000011;
+   buildPhases = (A00000000000000000000006, A00000000000000000000007, A00000000000000000000008);
+   buildRules = ();
+   dependencies = ();
+   fileSystemSynchronizedGroups = (A00000000000000000000009);
+   name = Vocal;
+   packageProductDependencies = (A00000000000000000000021, A00000000000000000000022);
+   productName = Vocal;
+   productReference = A00000000000000000000004;
+   productType = "com.apple.product-type.application";
+  };
+  A00000000000000000000006 = { isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+  A00000000000000000000007 = { isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (A00000000000000000000023, A00000000000000000000024); runOnlyForDeploymentPostprocessing = 0; };
+  A00000000000000000000008 = { isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+  A00000000000000000000009 = { isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = App; sourceTree = "<group>"; };
+  A00000000000000000000010 = { isa = XCConfigurationList; buildConfigurations = (A00000000000000000000012, A00000000000000000000013); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+  A00000000000000000000011 = { isa = XCConfigurationList; buildConfigurations = (A00000000000000000000014, A00000000000000000000015); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+  A00000000000000000000012 = { isa = XCBuildConfiguration; buildSettings = {
+   CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES;
+   SDKROOT = iphoneos; IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+   SWIFT_VERSION = 5.0; SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+   SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+   ENABLE_TESTABILITY = YES; DEBUG_INFORMATION_FORMAT = dwarf;
+  }; name = Debug; };
+  A00000000000000000000013 = { isa = XCBuildConfiguration; buildSettings = {
+   CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES;
+   SDKROOT = iphoneos; IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+   SWIFT_VERSION = 5.0; SWIFT_OPTIMIZATION_LEVEL = "-O";
+   SWIFT_COMPILATION_MODE = wholemodule;
+   DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+  }; name = Release; };
+  A00000000000000000000014 = { isa = XCBuildConfiguration; baseConfigurationReference = A00000000000000000000030; buildSettings = {}; name = Debug; };
+  A00000000000000000000015 = { isa = XCBuildConfiguration; baseConfigurationReference = A00000000000000000000030; buildSettings = {}; name = Release; };
+  A00000000000000000000020 = { isa = XCLocalSwiftPackageReference; relativePath = .; };
+  A00000000000000000000021 = { isa = XCSwiftPackageProductDependency; package = A00000000000000000000020; productName = VocalRuntime; };
+  A00000000000000000000022 = { isa = XCSwiftPackageProductDependency; package = A00000000000000000000020; productName = VocalCore; };
+  A00000000000000000000023 = { isa = PBXBuildFile; productRef = A00000000000000000000021; };
+  A00000000000000000000024 = { isa = PBXBuildFile; productRef = A00000000000000000000022; };
+  A00000000000000000000030 = { isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = SOURCE_ROOT; };
+ };
+ rootObject = A00000000000000000000001;
+}

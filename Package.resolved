@@ -1,0 +1,24 @@
+{
+  "originHash" : "e489eb8e48b51b02975c30bf3be24ef4061ff8d2f08f0b712645b0cd4a479dfc",
+  "pins" : [
+    {
+      "identity" : "xn-ptts",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/gradium-ai/xn-ptts.git",
+      "state" : {
+        "revision" : "95bf24d1ca5e94f0f62abe588b1ccb6f093bcc9c",
+        "version" : "0.6.0"
+      }
+    },
+    {
+      "identity" : "zipfoundation",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/weichsel/ZIPFoundation.git",
+      "state" : {
+        "revision" : "22787ffb59de99e5dc1fbfe80b19c97a904ad48d",
+        "version" : "0.9.20"
+      }
+    }
+  ],
+  "version" : 3
+}

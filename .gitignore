@@ -1,0 +1,14 @@
+.build/
+.swiftpm/
+DerivedData/
+dist/
+comparison-output/
+xcuserdata/
+*.xcuserstate
+.DS_Store
+*.safetensors
+*.wav
+*.m4a
+*.mlmodelc/
+*.mlpackage/
+conversation-output/
